@@ -5,11 +5,11 @@ int main(){
 
     int A[] = {5,4,3,5,6,1,3,2,5,6,4,2};//array that we want to sort
     int length = sizeof(A)/sizeof(A[0]);
-    int k = 6;
+    int k = 6;//length of the working array
 
     int* B = new int[k+1];//additional space
     for (int i = 0; i <= k; i++){
-        B[i] = 0;
+        B[i] = 0;//initialize the working array
     }
 
     int* C = new int[length];//output array
